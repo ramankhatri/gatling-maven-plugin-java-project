@@ -1,0 +1,31 @@
+# IDE  conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+.cache
+.flattened-pom.xml
+
+#building
+target
+build
+null
+tmp
+temp
+dist
+test-output
+build.log
+
+# misc
+.DS_Store
+
+# project files to ignore
+!/results/.gitkeep
+
+# intellij
+*.iml
+.idea/*
+!.idea/runConfigurations
+
+dependency-reduced-pom.xml
